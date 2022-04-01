@@ -1,6 +1,8 @@
 # GitHubTrends_ListUserAndRepo
 
-List of Users with Repositories. SortList By Stars, Perosonal Details about the User, Search By Repository Name.
+List of Users with Repositories. 
+
+SortList By Stars, Perosonal Details about the User, Search By Repository Name.
 
 HomeScreen
 
