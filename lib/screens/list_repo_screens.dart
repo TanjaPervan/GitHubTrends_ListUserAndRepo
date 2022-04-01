@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/models/repo.dart';
-import 'package:flutter_complete_guide/search_model/search_screen.dart';
+import 'package:flutter_complete_guide/data_models/repo.dart';
+import 'package:flutter_complete_guide/screens/search_screen.dart';
 import 'package:flutter_complete_guide/service/fetch_data.dart';
-import 'package:flutter_complete_guide/widgets/list_item_widget.dart';
 
 class ListRepo extends StatelessWidget {
   ListRepo({Key? key}) : super(key: key);

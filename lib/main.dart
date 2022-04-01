@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/constants/routes.dart';
-import 'package:flutter_complete_guide/helper/change_state.dart';
-import 'package:flutter_complete_guide/screens/details_repo.dart';
-
 import 'package:flutter_complete_guide/screens/list_repo_screens.dart';
 
 void main() => runApp(MyApp());
@@ -15,9 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // routes: {
       //   listRepos: (ctx) => ListRepo(),
-      //   detailRepo: (ctx) => DetailsRepo(
-
-      //       ),
+      //   detailRepo: (ctx) => DetailsRepo(),
       // },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/widgets/row_star_fork_w.dart';
 
-import 'package:flutter_complete_guide/models/item.dart';
+import 'package:flutter_complete_guide/data_models/item.dart';
 
 class DetailsRepo extends StatelessWidget {
   DetailsRepo({Key? key, required this.item}) : super(key: key);

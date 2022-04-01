@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/models/item.dart';
-import 'package:flutter_complete_guide/models/repo.dart';
+import 'package:flutter_complete_guide/data_models/item.dart';
+import 'package:flutter_complete_guide/data_models/repo.dart';
 import 'package:flutter_complete_guide/widgets/list_item_widget.dart';
 
 class SortButton extends StatefulWidget {

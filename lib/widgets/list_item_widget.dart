@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_complete_guide/models/item.dart';
-import 'package:flutter_complete_guide/models/repo.dart';
-import 'package:flutter_complete_guide/screens/details_repo.dart';
+import 'package:flutter_complete_guide/data_models/item.dart';
+import 'package:flutter_complete_guide/data_models/repo.dart';
+import 'package:flutter_complete_guide/screens/details_screen.dart';
 import 'package:flutter_complete_guide/widgets/row_star_fork_w.dart';
 
 class ListItem extends StatefulWidget {
@@ -36,6 +36,16 @@ class _ListItemState extends State<ListItem> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
+                      CircleAvatar(
+                        child: FittedBox(
+                          child: Image.network(item.owner!.avatarUrl!),
+                          fit: BoxFit.fill,
+                        ),
+                        radius: 30,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
                       //if (repoItem != null)
                       Flexible(
                         fit: FlexFit.tight,
@@ -109,5 +119,4 @@ class _ListItemState extends State<ListItem> {
           );
         });
   }
-  
 }

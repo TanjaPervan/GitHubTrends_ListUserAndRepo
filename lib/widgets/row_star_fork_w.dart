@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/models/item.dart';
+import 'package:flutter_complete_guide/data_models/item.dart';
 
 Widget RoWidgetSF(Item item, BuildContext context) {
   return Row(

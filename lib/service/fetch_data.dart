@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
-import 'package:flutter_complete_guide/models/repo.dart';
+import 'package:flutter_complete_guide/data_models/repo.dart';
 
 import 'package:flutter_complete_guide/widgets/list_item_widget.dart';
 import 'package:http/http.dart' as http;
